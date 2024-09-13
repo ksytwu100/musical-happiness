@@ -1,0 +1,95 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+}
+
+.swim-lanes {
+  min-height: 500vh;
+}
+
+.task-card {
+  margin: 2% auto;
+  width: 75%;
+  border: 1px solid black
+  box-shadow: 3px 3px;
+  h3 {
+    background-color: #b71c1c;
+    margin: 0px;
+    padding: 5px;
+    color: white;
+    font-weight: bold;
+  }
+  .task-body {
+    background-color: white;
+    color: black;
+    padding: 2%;
+  }
+  .past-due {
+    background-color: #e55656;
+  }
+  
+  .due-today {
+    background-color: #FFF685;
+  }
+}
+
+.task-card:hover {
+  cursor: grab;
+}
+
+.modal-body {
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.header {
+  background-color: lightlue;
+  border-bottom: 1px solid #000000;
+}
+
+input[type="title"],
+select {
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="date"],
+select {
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="content"],
+select {
+  width: 100px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  width: 100px;
+  background-color: #4caf50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
