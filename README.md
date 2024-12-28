@@ -1,7 +1,7 @@
 # musical-happiness
 
 Description
-This application is for class homework management.  The students can keep track of the status of the homework, it consists of using Bootstraps, Modal, jQuery, Google Fonts, day.js, as the homework cards are represented by the due today, past due, and due in future status, the cards are dragged to the column of "To Do" 'In Process", and "Done" column respectively based on its status. 
+This application is for class homework management.  The students can keep track of the status of the homework consists of using Bootstraps, Modal, jQuery, Google Fonts, and day.js, as the homework cards are represented by the due today, past due, and due in future status, the cards are dragged to the column of "To Do" 'In Process", and "Done" column respectively based on its status. 
 
 This application will run in the browser and feature dynamically updated HTML and CSS powered by jQuery. The students use jQuery UI to make the application more interactive and user-friendly.
 
